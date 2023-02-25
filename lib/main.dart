@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Counter'),
+        title: Text('My Counter Cubit'),
       ),
       body: BlocConsumer<CounterCubit, CounterState>(
         listener: (context, state) {
